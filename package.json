@@ -1,5 +1,5 @@
 {
-  "name": "excel-header-formatter",
+  "name": "@beneoffice/excel-header-formatter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
