@@ -110,7 +110,7 @@ export class TextFormatBuilder {
 
     /**
      * Prints the characters in the specified color. User supplies a hexadecimal color value.
-     * @param hexColor Can be a 3 or 6 character hex value starting with #
+     * @param hexColor Can be a 3 or 6 character hex value. Do not prefix with a #
      */
     fontColor(hexColor: string): this {
         if(!isHexColor(hexColor)) {
