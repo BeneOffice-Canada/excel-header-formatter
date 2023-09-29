@@ -97,8 +97,8 @@ describe("TextFormatBuilder", () => {
 
     test("Should set the font color", () => {
         const builder = new TextFormatBuilder();
-        const actual = builder.fontColor("#FF00FF").value;
-        expect(actual).toBe("&#FF00FF");
+        const actual = builder.fontColor("FF00FF").value;
+        expect(actual).toBe("&KFF00FF");
     });
 
     test("Should throw error when color is not a hex value", () => {
