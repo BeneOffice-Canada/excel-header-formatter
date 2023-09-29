@@ -104,7 +104,7 @@ export class TextFormatBuilder {
             throw new TextFormatBuilderError("Fontsize must be less than 100");
         }
 
-        this.#format += `&${fontSize}`;
+        this.#format += `&${fontSize} `;
         return this;
     }
 
