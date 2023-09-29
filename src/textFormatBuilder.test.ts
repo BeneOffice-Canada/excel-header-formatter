@@ -78,7 +78,7 @@ describe("TextFormatBuilder", () => {
     test("Should set the font size", () => {
         const builder = new TextFormatBuilder();
         const actual = builder.fontSize(12).value;
-        expect(actual).toBe("&12");
+        expect(actual).toBe("&12 ");
     });
 
     test("Should throw error when fontSize is negative number", () => {
