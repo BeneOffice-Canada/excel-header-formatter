@@ -1,6 +1,6 @@
 {
   "name": "@beneoffice/excel-header-formatter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small library to create a formatted string that can be used in an Excel header and footer.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
